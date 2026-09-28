@@ -1,21 +1,277 @@
-MIT License
+Cealith Shaders License Agreement 1.0
 
 Copyright (c) 2026 CoolSantyx
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license agreement applies to the version of Cealith Shaders in which this
+license file is included.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+0. Terminology
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+⸻
+
+0.1. “Cealith”, “The Pack”, and/or “This Pack” means the complete Cealith
+Shaders software package distributed with this license agreement,
+including its shader code, configuration files, assets, documentation,
+and other files included in the package unless a file explicitly states
+that it is covered by a different license.
+
+0.2. “Official Source” means an official distribution page or repository
+operated or authorized by the Cealith Shaders author, currently
+including the official Cealith Shaders pages on Modrinth, CurseForge,
+and GitHub.
+
+0.3. “Normal Usage” means using This Pack for its intended purpose as a
+Minecraft shader pack.
+
+   Normal Usage includes, but is not limited to:
+     a. Using This Pack during gameplay.
+     b. Using This Pack in single-player or multiplayer gameplay.
+     c. Using This Pack for screenshots, videos, livestreams, and other
+        forms of content creation.
+     d. Using This Pack for personal or commercial content creation,
+        provided that the shader files themselves are not redistributed.
+
+0.4. “User” means any individual using This Pack under the permissions
+granted by this agreement.
+
+0.5. “Modpack” means a collection of modifications, configuration files,
+resource packs, shader packs, or other content distributed for
+Minecraft: Java Edition.
+
+0.6. “Modified Pack” means a copy or derivative version of This Pack in
+which any shader code, configuration, asset, or other part of This Pack
+has been intentionally changed.
+
+0.7. “Redistribution” means making This Pack, any substantial portion of it,
+or a modified version of it available to another person or third party
+outside the permissions explicitly granted by this agreement.
+
+   This includes, but is not limited to:
+     a. Uploading the files to another website.
+     b. Uploading the files to another file-hosting service.
+     c. Creating mirrors or unofficial download pages.
+     d. Re-uploading the files to another project page.
+     e. Bundling the files for direct download outside an authorized
+        Modpack distribution system.
+     f. Selling or sublicensing the files.
+     g. Distributing modified versions of the files.
+
+0.8. “Official Distribution Platforms” means Modrinth and CurseForge, or
+another platform explicitly authorized by the Cealith Shaders author.
+
+1. Grants
+
+⸻
+
+1.1. Users are granted permission to use This Pack for Normal Usage.
+
+1.2. Users are allowed to create and publish screenshots, videos,
+livestreams, reviews, tutorials, benchmarks, and other content that
+shows or uses This Pack.
+
+1.3. Content created using This Pack may be monetized, including through
+advertising, sponsorships, donations, subscriptions, or other
+legitimate content-creation systems.
+
+1.4. Users may include This Pack in a Modpack provided that all of the
+following conditions are met:
+
+     a. The Modpack does not modify This Pack.
+     b. The Modpack does not provide a separately hosted direct download
+        of This Pack outside the Modpack platform's normal distribution
+        system.
+     c. The Modpack clearly credits "Cealith Shaders" and "CoolSantyx"
+        when the shader is included or enabled by default.
+     d. The Modpack provides a link to an Official Source whenever the
+        platform allows the Modpack author to provide project links.
+     e. The Modpack author does not claim ownership of Cealith or imply
+        that Cealith is their own work.
+     f. Problems caused specifically by the Modpack's configuration,
+        modifications, or other included content remain the responsibility
+        of the Modpack author.
+
+1.5. Modpack distribution through the normal systems provided by Modrinth
+or CurseForge is permitted even when the platform technically stores
+or distributes the required files as part of its normal Modpack
+infrastructure.
+
+1.6. Users may use This Pack for commercial Minecraft content, provided that
+such usage does not involve selling, licensing, or redistributing
+This Pack itself.
+
+2. Restrictions
+
+⸻
+
+2.1. Except where explicitly permitted by Section 1, This Pack may not be
+redistributed.
+
+2.2. Users may not upload This Pack or substantial portions of This Pack to
+third-party websites, file-hosting services, repositories, download
+sites, or project pages.
+
+2.3. Users may not create or operate unofficial mirrors of This Pack.
+
+2.4. Users may not redistribute This Pack as a standalone download through
+a website, launcher, Discord server, forum, social-media post,
+repository, archive, or other distribution method.
+
+2.5. Users may not sell, sublicense, rent, lease, or otherwise commercially
+distribute This Pack itself.
+
+2.6. Users may not modify, translate, decompile, adapt, or create a
+Modified Pack from This Pack for redistribution unless explicit written
+permission has been granted by CoolSantyx.
+
+2.7. Users may not redistribute individual shader files, portions of shader
+code, textures, assets, configuration files, or other substantial
+components of This Pack as standalone material.
+
+2.8. Users may not use the Cealith name, branding, logos, or other project
+identifiers in a manner that falsely suggests that an unofficial
+project is an official Cealith Shaders release.
+
+2.9. Users may not remove or alter copyright notices, license notices,
+attribution notices, or other ownership notices included with This Pack.
+
+3. Modifications and Derivative Works
+
+⸻
+
+3.1. Private modifications are permitted for personal use, provided that
+the modified files are not redistributed.
+
+3.2. Public redistribution of a Modified Pack requires explicit written
+permission from CoolSantyx.
+
+3.3. A project based on Cealith may not be presented as an official Cealith
+Shaders release unless it has been explicitly authorized by CoolSantyx.
+
+3.4. Permission to create or distribute a Modified Pack may be granted on a
+case-by-case basis and may contain additional conditions.
+
+4. Attribution
+
+⸻
+
+4.1. When This Pack is included in a Modpack or other permitted
+distribution, the following attribution is requested:
+
+   "Cealith Shaders by CoolSantyx"
+
+4.2. When technically possible, permitted distributions should provide a
+link to an Official Source.
+
+4.3. Attribution does not grant any additional rights beyond those
+explicitly provided by this agreement.
+
+5. Ownership
+
+⸻
+
+5.1. This agreement does not transfer ownership of Cealith Shaders,
+its source code, assets, branding, or other intellectual property.
+
+5.2. Copyright and other applicable intellectual-property rights remain with
+CoolSantyx except where ownership is explicitly held by another party.
+
+5.3. Permission to use This Pack under this agreement must not be interpreted
+as a transfer of ownership.
+
+6. Third-Party Material
+
+⸻
+
+6.1. Some files or components may be covered by separate licenses or
+belong to third parties.
+
+6.2. Where a file explicitly contains a different license or attribution
+notice, that separate license applies to that file to the extent
+specified by its terms.
+
+6.3. Nothing in this agreement removes rights granted by a third-party
+license that legally applies to specific components.
+
+7. Official Distribution
+
+⸻
+
+7.1. Official releases of Cealith Shaders are distributed through the
+Official Source(s).
+
+7.2. Third-party websites, mirrors, download pages, archives, or project
+pages are not considered official merely because they distribute or
+reference Cealith Shaders.
+
+7.3. An unofficial distributor may not claim to be the author, developer,
+maintainer, or official distributor of Cealith Shaders without explicit
+authorization.
+
+8. License Scope
+
+⸻
+
+8.1. This agreement applies only to the specific version of This Pack in
+which this license file is included.
+
+8.2. Future versions may use this agreement, a revised version of this
+agreement, or a different license at the sole discretion of CoolSantyx.
+
+8.3. Previous versions distributed under a different license remain subject
+to the license under which those versions were originally released.
+
+8.4. Unless explicitly stated otherwise, this agreement does not retroactively
+change the license of previously released versions.
+
+9. License Infringement
+
+⸻
+
+9.1. Any use, modification, or redistribution that is not expressly permitted
+by this agreement is unauthorized.
+
+9.2. In the event of an alleged infringement, CoolSantyx reserves the right
+to request removal of unauthorized copies or distributions and to take
+other actions available under applicable law.
+
+9.3. Failure to enforce this agreement in one instance does not constitute
+a waiver of the right to enforce it in another instance.
+
+9.4. Permission granted under this agreement may be terminated for a User
+who materially violates its terms, subject to applicable law.
+
+10. No Warranty
+
+⸻
+
+10.1. This Pack is provided “AS IS”, without warranties of any kind, express
+or implied, to the maximum extent permitted by applicable law.
+
+10.2. CoolSantyx is not responsible for damage, data loss, performance
+issues, incompatibilities, or other problems resulting from the use of
+This Pack or its interaction with other software, modifications,
+hardware, or Modpacks.
+
+11. Acceptance
+
+⸻
+
+11.1. By downloading, installing, or using This Pack, the User acknowledges
+that they have read and understood this agreement and agrees to comply
+with its terms.
+
+11.2. If the User does not agree to these terms, they must not use or
+redistribute This Pack except where applicable law provides rights that
+cannot legally be restricted by this agreement.
+
+12. Contact
+
+⸻
+
+12.1. Requests for redistribution, modification, permissions, partnerships,
+or other exceptions should be directed to CoolSantyx through an
+officially provided contact method.
+
+============================================================
+Cealith Shaders
+Copyright (c) 2026 CoolSantyx
