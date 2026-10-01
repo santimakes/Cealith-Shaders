@@ -45,7 +45,7 @@
 
 ## License
 
-MIT License. See `LICENSE`.
+MIT License. See the [LICENSE](https://github.com/santimakes/Cealith-Shaders?tab=License-1-ov-file).
 
 ### 1.1.1 bug-fix / stability pass
 
