@@ -1,67 +1,38 @@
-# Cealith Shaders 1.1.1
+# Cealith Shaders
 
-### 1.1.1 changes
+Cealith is a lightweight vanilla+ shaderpack for Minecraft Java Edition. It adds soft shadows, atmospheric skies, natural lighting and animated water while keeping a familiar Minecraft look.
 
-* Fixes vanilla star detection in sky rendering to improve compatibility with different rendering configurations.
-* Restores proper entity color overlay handling for effects such as damage tinting.
-* Smooths the terrain shadow transition between daytime and nighttime to avoid abrupt shadow changes during twilight.
-* Improves water depth sampling to reduce potential edge-related rendering artifacts.
-* Adds safeguards against invalid vector normalization that could produce isolated visual artifacts.
-* Makes render target usage explicit in programs that only write to the main color buffer.
-* Preserves the original Cealith visual style, lighting balance, water appearance, clouds, fog, and performance profiles.
+[Download the latest version on Modrinth](https://modrinth.com/shader/cealith-shaders/versions) · [View screenshots](https://modrinth.com/shader/cealith-shaders/gallery)
 
-## Compatibility target
+## Features
 
-* Minecraft Java shader pipeline using Iris or OptiFine-compatible shader loading.
-* GLSL 330 compatibility shaders.
-* Designed around the standard `gbuffers_*`, `shadow`, `composite`, and `final` programs.
+- Daylight, sunsets and darker nights with adjustable night brightness.
+- Soft shadows and atmospheric fog.
+- Translucent water with animated waves, depth colour, reflections and shoreline foam.
+- LOW, BALANCED and HIGH profiles to trade detail for performance.
 
-## Visual direction
-
-* Bright, natural daylight with richer colors.
-* More atmospheric dawn and sunset colors.
-* Darker blue nighttime sky with readable stars.
-* Naturally shaded clouds with soft highlights and cool undertones.
-* Clear translucent water with animated waves, Fresnel highlights, depth tinting, soft sun reflections, and subtle caustic shimmer.
-* Natural fog blending and gentle color grading.
-
-## Performance profiles
-
-**LOW**
-512 shadow map, 48-block shadow distance, 1-tap shadows, reduced cloud edge work and reduced water ripple/shimmer work.
-
-**BALANCED**
-1024 shadow map, 80-block shadow distance, 2-tap shadows, full cloud shading and full water detail. This is the recommended starting point.
-
-**HIGH**
-1536 shadow map, 112-block shadow distance, 4-tap shadows, full visual detail.
-
-## Installation
+## Install
 
 1. Install Iris or OptiFine for your Minecraft version.
-2. Put `Cealith-Shaders-1.1.1.zip` inside your `.minecraft/shaderpacks` folder.
-3. Select **Cealith Shaders** from the Shader Packs menu.
-4. Start with **BALANCED**. If FPS is limited, switch to **LOW** before lowering Minecraft's render distance.
+2. Download the latest Cealith ZIP from Modrinth and place it in `.minecraft/shaderpacks` without extracting it.
+3. Select **Cealith Shaders** in the shader menu. Start with **BALANCED**; try **LOW** if you need more performance.
+
+Check the [current Modrinth release](https://modrinth.com/shader/cealith-shaders/versions) for its supported Minecraft versions and changelog.
+
+## Profiles
+
+| Profile | Shadows | Water | Clouds |
+| --- | --- | --- | --- |
+| LOW | 1 sample | 3 broad waves; reflections off | Simpler edges |
+| BALANCED | 2 samples | Detailed waves and reflections | Detailed edges |
+| HIGH | 4 samples | Detailed waves and reflections | Detailed edges |
+
+The shadow map is 1024 pixels and the shadow distance is 80 blocks in every profile. **Night Brightness**, **Detailed Water Motion** and **Water Reflections** can also be adjusted in Shader Pack Settings.
+
+## About this repository
+
+This repository currently hosts the project documentation and license. The shader ZIPs are distributed through the [official Modrinth page](https://modrinth.com/shader/cealith-shaders).
 
 ## License
 
-MIT License. See the [LICENSE](https://github.com/santimakes/Cealith-Shaders?tab=License-1-ov-file).
-
-### 1.1.1 bug-fix / stability pass
-
-This build keeps the original Cealith look while addressing several rendering and compatibility issues identified in 1.1.0.
-
-## 1.1.1 visual / compatibility notes
-
-* No intentional visual redesign was made.
-* Existing lighting, water, cloud, fog, color grading, and performance profile behavior are preserved.
-* Sky star handling is more robust across compatible shader configurations.
-* Entity overlays are handled correctly.
-* Twilight shadow transitions are smoother.
-* Water depth sampling is more stable around geometry edges.
-* Additional safeguards reduce the chance of isolated rendering artifacts.
-* Explicit render target declarations improve clarity and compatibility without changing the intended output.
-
-## 1.1.0 visual/performance notes
-
-* Final night tuning: darker global night exposure/gamma and a deeper night sky while preserving the daytime look, water, and performance changes.
+Cealith Shaders is available under the [MIT License](LICENSE). Include the copyright and license notice if you redistribute the pack or portions of it.
