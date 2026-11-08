@@ -21,13 +21,11 @@ Check the [current Modrinth release](https://modrinth.com/shader/cealith-shaders
 
 ## Profiles
 
-| Profile | Shadows | Water | Clouds |
-| --- | --- | --- | --- |
-| LOW | 1 sample | 3 broad waves; reflections off | Simpler edges |
-| BALANCED | 2 samples | Detailed waves and reflections | Detailed edges |
-| HIGH | 4 samples | Detailed waves and reflections | Detailed edges |
+- **LOW:** reduces shadow, water and cloud detail.
+- **BALANCED:** keeps the intended look. Recommended starting point.
+- **HIGH:** increases shadow quality.
 
-The shadow map is 1024 pixels and the shadow distance is 80 blocks in every profile. **Night Brightness**, **Detailed Water Motion** and **Water Reflections** can also be adjusted in Shader Pack Settings.
+You can adjust available options in Shader Pack Settings. See the [latest release](https://modrinth.com/shader/cealith-shaders/versions) for version-specific changes.
 
 ## About this repository
 
