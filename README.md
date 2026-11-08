@@ -2,7 +2,7 @@
 
 Cealith is a lightweight vanilla+ shaderpack for Minecraft Java Edition. It adds soft shadows, atmospheric skies, natural lighting and animated water while keeping a familiar Minecraft look.
 
-[Download the latest version on Modrinth](https://modrinth.com/shader/cealith-shaders/versions) · [View screenshots](https://modrinth.com/shader/cealith-shaders/gallery)
+[Download the latest version on Modrinth](https://modrinth.com/shader/cealith-shaders/versions) or [CurseForge](https://www.curseforge.com/minecraft/shaders/cealith-shaders) · [View screenshots on Modrinth](https://modrinth.com/shader/cealith-shaders/gallery) or [CurseForge](https://www.curseforge.com/minecraft/shaders/cealith-shaders/gallery)
 
 ## Features
 
